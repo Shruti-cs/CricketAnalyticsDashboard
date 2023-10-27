@@ -8,7 +8,7 @@ st.set_page_config(
 
 
 st.title("CRICKET ANALYTICS DASHBOARD")
-st.footer('App by : Shruti C S ; Deepak Raj A')
+
 
 # Define a Streamlit app
 st.header('Switch between Cricket Match Analysis')
@@ -38,6 +38,8 @@ if b2:
         unsafe_allow_html=True
     )
 
+
+st.label('App by : Shruti C S ; Deepak Raj A')
 
 
 
