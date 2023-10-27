@@ -8,9 +8,11 @@ st.set_page_config(
 
 
 st.title("CRICKET ANALYTICS DASHBOARD")
+st.footer('App by : Shruti C S ; Deepak Raj A')
 
 # Define a Streamlit app
 st.header('Switch between Cricket Match Analysis')
+
 
 # Create a button with custom size
 button_label1 = "WorldCup"
