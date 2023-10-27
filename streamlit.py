@@ -39,7 +39,7 @@ if b2:
     )
 
 
-st.label('App by : Shruti C S ; Deepak Raj A')
+st.write('App by : Shruti C S ; Deepak Raj A')
 
 
 
