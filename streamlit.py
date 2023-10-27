@@ -12,7 +12,7 @@ from sklearn.metrics import mean_squared_error, r2_score
 # Set the title of the Streamlit app
 st.set_page_config(
     page_title="Cricket Analytics Dashboard",
-    page_icon="images\hitter.png",  # You can set a favicon here if needed
+    page_icon="images/hitter.png",  # You can set a favicon here if needed
     layout="wide" ,   # You can customize the layout as well
 )
 
@@ -27,8 +27,8 @@ def get_img_as_base64(file):
     return base64.b64encode(data).decode()
 
 
-img = get_img_as_base64("images\Sbg2.jpg")
-img1 = get_img_as_base64("images\side.jpeg")
+img = get_img_as_base64("images/Sbg2.jpg")
+img1 = get_img_as_base64("images/side.jpeg")
 
 page_bg_img = f"""
 <style>
